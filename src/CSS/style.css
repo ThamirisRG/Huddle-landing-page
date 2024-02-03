@@ -89,7 +89,7 @@ body{
 .footer .social .fab.fa-instagram{
     padding: 10px;
 }
-@media(max-width:1440px){
+@media(max-width:768px){
     .header{
         text-align: center;
     }
