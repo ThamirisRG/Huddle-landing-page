@@ -1,0 +1,108 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Open Sans",sans-serif;
+    background-color: var(--second-soft);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    align-items: center;
+}
+.about{
+    display: flex;
+    align-content: center;
+}
+.about .image{
+    padding: 50px;
+}
+.about .item{
+    font-weight: 600;
+
+}
+.about .item h3{
+    font-weight: 600;
+    font-size: 5rem;
+    display: flex;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-family: "Poppins",sans-serif;
+    
+
+}
+.about .item p{
+    font-family: "";
+    color:white;
+    font-weight: 300;
+    font-size: 2rem;
+    font-family: "Poppins",sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+
+}
+.about  .btn{
+    font-family: "Poppins",sans-serif;
+    background-color: #fff;
+    color: var(--second-soft);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+    margin-left: 50px;
+}
+.about  .btn:hover{
+    background-color: var(--primary-soft);
+    color: #fff;
+}
+.footer{
+    grid-area: footer;
+    display: flex;
+    width: 98%;   
+    clear: both;
+    bottom: 0px;
+    padding:12px ;
+}
+.footer .social{
+    text-align: right;
+    font-size: 50px;
+    transition: 0.5s ease-in-out;
+}
+
+.footer .social .fab.fa-facebook{
+    width: 1450px;
+    padding: 10px;
+    
+}
+.footer .social .fab.fa-instagram{
+    padding: 10px;
+}
+@media(max-width:1440px){
+    .header{
+        text-align: center;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer .social{
+        text-align: center;
+        justify-items: center;
+
+
+    }
+}
